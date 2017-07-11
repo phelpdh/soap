@@ -1,4 +1,4 @@
-// Package soap wraps github.com/VictorLowther/simplexml/dom to provide
+// Package soap wraps github.com/phelpdh/simplexml/dom to provide
 // convienent methods for dealing with SOAP messages as a SOAP client.
 package soap
 
@@ -21,8 +21,8 @@ limitations under the License.
 import (
 	"encoding/xml"
 	"errors"
-	"github.com/VictorLowther/simplexml/dom"
-	"github.com/VictorLowther/simplexml/search"
+	"github.com/phelpdh/simplexml/dom"
+	"github.com/phelpdh/simplexml/search"
 	"io"
 )
 
